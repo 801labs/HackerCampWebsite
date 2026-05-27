@@ -1,0 +1,326 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>HackerCamp - 2026 Agenda</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			/* Custom styling to enforce solid grid lines matching Spectral's color palette */
+			.agenda-table {
+				border-collapse: collapse;
+				width: 100%;
+				margin-bottom: 2em;
+			}
+			.agenda-table th, .agenda-table td {
+				border: 1px solid rgba(255, 255, 255, 0.2) !important;
+				padding: 0.75em !important;
+			}
+			/* Alternating row colors to make grid scanning easier */
+			.agenda-table tbody tr:nth-child(odd) {
+				background-color: rgba(255, 255, 255, 0.02);
+			}
+			.agenda-table tbody tr:nth-child(even) {
+				background-color: rgba(0, 0, 0, 0.2);
+			}
+			/* Anchor link color for schedule cells */
+			.agenda-table td a {
+				border-bottom: none;
+				color: #2e3842; /* Dark slate gray */
+				font-weight: bold;
+				display: block;
+			}
+			.agenda-table td a:hover {
+				color: #fe8f01; /* Vibrant orange on hover */
+			}
+			.track-title {
+				margin-top: 1.5em;
+				border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+				padding-bottom: 0.25em;
+			}
+
+			/* Fix for the sticky/fixed header overlap */
+			/* Creates a 5em buffer above the target list item when jumped to via anchor link */
+			#main ul li[id] {
+				scroll-margin-top: 4em;
+			}
+		</style>
+	</head>
+	<body class="is-preload">
+
+		<div id="page-wrapper">
+
+				<header id="header">
+						<h1><a href="index.html">HackerCamp</a></h1>
+						<nav id="nav">
+							<ul>
+								<li class="special">
+									<a href="#menu" class="menuToggle"><span>Menu</span></a>
+									<div id="menu">
+										<ul>
+											<li><a href="index.html">Home</a></li>
+											<li><a href="faqs.html">FAQs</a></li>
+											<li><a href="gear.html">Recommended Gear</a></li>
+											<li><a href="https://www.eventbrite.com/e/hackercamp-2025-tickets-1280199684719">Registration</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+				<article id="main">
+						<header>
+							<h2>2026 Agenda</h2>
+							<p>The official tactical schedule for the weekend</p>
+						</header>
+						<section class="wrapper style5">
+							<div class="inner">
+
+								<h3>Friday: Arrival & Acclimation</h3>
+								<div class="table-wrapper">
+									<table class="agenda-table">
+										<thead>
+											<tr>
+												<th style="width: 20%;">Fri</th>
+												<th>Amphitheater</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td><strong>5:00</strong></td>
+												<td><a href="#fri-setup">Setup camp</a></td>
+											</tr>
+											<tr>
+												<td><strong>6:30</strong></td>
+												<td><a href="#fri-dinner">Dinner</a></td>
+											</tr>
+											<tr>
+												<td><strong>8:00</strong></td>
+												<td><a href="#fri-bonfire">Welcome bonfire / theme</a></td>
+											</tr>
+											<tr>
+												<td><strong>9:00</strong></td>
+												<td><a href="#fri-trivia">Trivia</a></td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+
+								<h3>Saturday: The Tracks</h3>
+								<p><em>Come and go as you please. If you want us to set out some of the gear (Locks, bow drill, etc.), just ask.</em></p>
+								<div class="table-wrapper">
+									<table class="agenda-table">
+										<thead>
+											<tr>
+												<th style="width: 12%;">Sat</th>
+												<th style="width: 29%;">Main</th>
+												<th style="width: 29%;">Side Quest</th>
+												<th style="width: 29%;">Kids</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td><strong>7:00</strong></td>
+												<td><a href="#sat-main-run">Lakeside fun run</a></td>
+												<td></td>
+												<td></td>
+											</tr>
+											<tr>
+												<td><strong>9:00</strong></td>
+												<td><a href="#sat-main-challenge">HackerCamp challenge</a></td>
+												<td><a href="#sat-side-coffee">Coffee roasting</a></td>
+												<td><a href="#sat-kids-teardown">HDD/Laptop Teardown</a></td>
+											</tr>
+											<tr>
+												<td><strong>10:00</strong></td>
+												<td><a href="#sat-main-fire">Fire starting</a></td>
+												<td><a href="#sat-side-phishing">Phishing contest</a></td>
+												<td><a href="#sat-kids-jewelry">Hardware Jewelry</a></td>
+											</tr>
+											<tr>
+												<td><strong>11:00</strong></td>
+												<td><a href="#sat-main-adhd">ADHD and tech</a></td>
+												<td><a href="#sat-side-fox">Fox Hunt</a></td>
+												<td><a href="#sat-kids-binary">Binary Necklaces</a></td>
+											</tr>
+											<tr>
+												<td><strong>12:00</strong></td>
+												<td colspan="3" style="text-align: center; background-color: rgba(255, 255, 255, 0.05);"><a href="#sat-main-lunch"><strong>Lunch (All Tracks)</strong></a></td>
+											</tr>
+											<tr>
+												<td><strong>1:00</strong></td>
+												<td><a href="#sat-main-ml">Machine learning</a></td>
+												<td><a href="#sat-side-mixology">Drink mixing demo</a></td>
+												<td><a href="#sat-kids-towers">Marshmallows Towers</a></td>
+											</tr>
+											<tr>
+												<td><strong>2:00</strong></td>
+												<td><a href="#sat-main-lock">Timed lock picking</a></td>
+												<td><a href="#sat-side-art">Collaborative 8-bit art</a></td>
+												<td></td>
+											</tr>
+											<tr>
+												<td><strong>3:00</strong></td>
+												<td><a href="#sat-main-solar">DIY solar</a></td>
+												<td></td>
+												<td></td>
+											</tr>
+											<tr>
+												<td><strong>4:00</strong></td>
+												<td><a href="#sat-main-otp">One-Time-Pads</a></td>
+												<td><a href="#sat-side-exposure">Long exposure</a></td>
+												<td></td>
+											</tr>
+											<tr>
+												<td><strong>5:00</strong></td>
+												<td><a href="#sat-main-knots">Knot tying challenges</a></td>
+												<td><a href="#sat-side-nvg">Night vision</a></td>
+												<td></td>
+											</tr>
+											<tr>
+												<td><strong>6:00</strong></td>
+												<td colspan="3" style="text-align: center; background-color: rgba(255, 255, 255, 0.05);"><a href="#sat-main-dinner"><strong>Dinner (All Tracks)</strong></a></td>
+											</tr>
+											<tr>
+												<td><strong>7:00</strong></td>
+												<td><a href="#sat-main-osint">Personal Osint</a></td>
+												<td></td>
+												<td></td>
+											</tr>
+											<tr>
+												<td><strong>8:00</strong></td>
+												<td><a href="#sat-main-bonfire">Bonfire</a></td>
+												<td></td>
+												<td></td>
+											</tr>
+											<tr>
+												<td><strong>9:00</strong></td>
+												<td><a href="#sat-main-nightphoto">Night vision/Photo</a></td>
+												<td></td>
+												<td></td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+
+								<h3>Sunday: Exit Strategy</h3>
+								<div class="table-wrapper">
+									<table class="agenda-table">
+										<thead>
+											<tr>
+												<th style="width: 20%;">Sun</th>
+												<th>Amphitheater</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td><strong>7:00</strong></td>
+												<td><a href="#sun-hike">Sunrise hike</a></td>
+											</tr>
+											<tr>
+												<td><strong>9:00</strong></td>
+												<td><a href="#sun-awards">Awards</a></td>
+											</tr>
+											<tr>
+												<td><strong>10:00</strong></td>
+												<td><a href="#sun-cleanup">Cleanup (leave no trace)</a></td>
+											</tr>
+											<tr>
+												<td><strong>11:00</strong></td>
+												<td><a href="#sun-checkout">Check out</a></td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+
+								<hr />
+
+								<h2>Event Descriptions</h2>
+
+								<h3 class="track-title" style="color: #ed4933;">Friday Details</h3>
+								<ul>
+									<li id="fri-setup"><strong>Setup Camp (5:00 PM):</strong> Dust off that tent you haven’t opened since last HackerCamp. Wrestle with the fiberglass poles, question your life choices, and get your home-away-from-home established before it’s pitch black.</li>
+									<li id="fri-dinner"><strong>Dinner (6:30 PM):</strong> Make some food (or just eat your fastfood leftovers) and chill with the other campsite hackers.</li>
+									<li id="fri-bonfire"><strong>Welcome Bonfire / Theme (8:00 PM):</strong> Gather 'round the big fire for the official kick-off. We’ll introduce this year's theme, lay down the ground rules (1. Don't burn down the forest, 2. Clean up your own messes, 3. Don’t make us make any more rules), and get everyone calibrated.</li>
+									<li id="fri-trivia"><strong>Trivia (9:00 PM):</strong> Put your useless knowledge to the test. Expect a highly chaotic mix of obscure internet lore, Linux commands, pop culture, and wilderness trivia. Bragging rights are on the line.</li>
+								</ul>
+
+								<h3 class="track-title" style="color: #ed4933;">Saturday Details</h3>
+								
+								<h4>Main Track</h4>
+								<ul>
+									<li id="sat-main-run"><strong>Lakeside Fun Run (7:00 AM):</strong> For the overachievers and the early caffeinators. A brisk run around Payson Lakes to wake up your lungs and pretend we all live healthy lifestyles. <em>(Volunteer leadership needed, cause I don’t get up that early - or run)</em></li>
+									<li id="sat-main-challenge"><strong>HackerCamp Challenge (9:00 AM):</strong> The ultimate mashup. Part digital CTF, part physical scavenger hunt. You’ll be deciphering clues, tracking down physical objectives in the brush, and solving a puzzle or two.</li>
+									<li id="sat-main-fire"><strong>Fire Starting (10:00 AM):</strong> No matches, no lighters, no accelerants. Just pure primitive friction and spark. Learn how to coax a flame out of nothing so you can survive the apocalypse (or just look cool at the next BBQ).</li>
+									<li id="sat-main-adhd"><strong>ADHD and Tech (11:00 AM):</strong> A real, open discussion about how neurodivergence plays out in our industry. We’ll talk strategy, coping mechanisms, and how to use your brain's unique wiring as a productivity superpower instead of a curse.</li>
+									<li id="sat-main-lunch"><strong>Lunch (12:00 PM):</strong> Food break. Chew some calories, trade tips from the morning challenges, and let your brain cool down.</li>
+									<li id="sat-main-ml"><strong>Machine Learning (1:00 PM):</strong> Think you need a cluster of H100 GPUs to understand AI? Think again. This is a purely analog, conceptual breakdown activity. We'll be mapping out how neural networks learn using nothing but paper, logic, and lack of internet.</li>
+									<li id="sat-main-lock"><strong>Timed Lock Picking / Locksport (2:00 PM):</strong> Physical security at its finest. Take what you know about tumblers and tension wrenches and put it against the clock. May the fastest pick win.</li>
+									<li id="sat-main-solar"><strong>DIY Solar (3:00 PM):</strong> Show and tell time! Bring over your custom solar rigs, battery banks, and off-grid power setups. We’ll talk shop, compare specs, and figure out how to keep our gear running when the grid vanishes.</li>
+									<li id="sat-main-otp"><strong>One-Time-Pads (4:00 PM):</strong> Perfect, unbreakable cryptography using nothing but paper and a pencil. Learn how to generate, use, and destroy true secure keys without a single line of code.</li>
+									<li id="sat-main-knots"><strong>Knot Tying Challenges (5:00 PM):</strong> Because if you can't tie a knot, your gear is going to fly off your truck on I-15. Learn the essential hitches and bends that keep tents standing and cargo secure.</li>
+									<li id="sat-main-dinner"><strong>Dinner (6:00 PM):</strong> The evening feast. Now is the time to show off your campfire cooking. Swap the day's victory stories and carb-load for the night ahead.</li>
+									<li id="sat-main-osint"><strong>Personal OSINT (7:00 PM):</strong> Open-Source Intelligence on yourself. We’ll discuss how your personal data gets onto the web in the first place, how data brokers harvest you, and the practical steps you can take to scrub your footprint and disappear from public databases.</li>
+									<li id="sat-main-bonfire"><strong>Bonfire (8:00 PM):</strong> The main social hub. Relax, unpack the day, and enjoy the crackle of the flames.</li>
+									<li id="sat-main-nightphoto"><strong>Night Vision & Photo (9:00 PM):</strong> The woods come alive when it's dark. Bring out the actual NVGs and night-photography rigs to play. We'll put our earlier daytime prep to the test under the stars.</li>
+								</ul>
+
+								<h4>Side Quest Track</h4>
+								<ul>
+									<li id="sat-side-coffee"><strong>Coffee Roasting (9:00 AM):</strong> Forget instant coffee packs. Learn the fine art of roasting artisan coffee beans over an open camp setup. Your morning brew is about to get a massive upgrade.</li>
+									<li id="sat-side-phishing"><strong>Phishing Contest (10:00 AM):</strong> Social engineering in the woods. Craft the ultimate deceptive pitch or catch your fellow campers off guard. (Please leave your corporate compliance training at home).</li>
+									<li id="sat-side-fox"><strong>Fox Hunt (11:00 AM):</strong> Radio direction finding at its finest. Grab your antenna and track down a hidden transmitter tucked away somewhere in the trees. It’s hide-and-seek, but with radio waves.</li>
+									<li id="sat-side-mixology"><strong>Drink Mixing Demo (1:00 PM):</strong> An analog mixology breakdown. Learn the science and art behind crafting a perfect cocktail (or mocktail) with limited camp resources.</li>
+									<li id="sat-side-art"><strong>Collaborative 8-bit Art (2:00 PM):</strong> Throwing it back to the BBS days. We're teaming up to create pixel-based graphical masterpieces using block characters. Nostalgia levels: critical.</li>
+									<li id="sat-side-exposure"><strong>Long Exposure Prep (4:00 PM):</strong> A quick tutorial on how to configure your camera or smartphone to capture incredible low-light shots. We’ll teach you what to do now, so you aren't fumbling with your settings in the dark at 9:00 PM.</li>
+									<li id="sat-side-nvg"><strong>Night Vision Gear Preview (5:00 PM):</strong> A hands-on walkthrough of the actual NVG gear, tubes, and thermal rigs that will be circulating tonight. Learn how they work, how to adjust them, and how not to drop them.</li>
+								</ul>
+
+								<h4>Future Hackers Track (Kids & Parents)</h4>
+								<p><em>This track features tech-related activities for parents and kids to tackle together. Drop by anytime, or show up for these specific scheduled events:</em></p>
+								<ul>
+									<li id="sat-kids-teardown"><strong>Laptop Teardown (9:00 AM):</strong> Ever wonder what the inside of a computer actually looks like? We’re handing the kids some screwdrivers and letting them safely destroy some old hardware. They’ll get to explore the shiny platters, magnets, and green circuit boards that make electronics tick.</li>
+									<li id="sat-kids-jewelry"><strong>Hardware Jewelry (10:00 AM):</strong> We’re taking the "prettiest" scraps, gears, and circuit boards from the morning teardown and upcycling them. Your kids will leave with custom, cyberpunk-style keychains, rings, or pendants. It’s wearable tech, literally.</li>
+									<li id="sat-kids-binary"><strong>Binary Necklaces (11:00 AM):</strong> Time to teach them how computers talk. Using black and white beads as 1s and 0s, kids will encode their own initials into ASCII binary code to create a custom necklace or bracelet. It’s a secret code they can wear around.</li>
+									<li id="sat-kids-towers"><strong>Marshmallow Towers (1:00 PM):</strong> The ultimate engineering challenge. Armed with only toothpicks and marshmallows, the kids will compete to build the tallest, most structurally sound tower possible. Expect high-level physics, severe structural collapses, and a lot of sticky fingers.</li>
+								</ul>
+
+								<h3 class="track-title" style="color: #ed4933;">Sunday Details</h3>
+								<ul>
+									<li id="sun-hike"><strong>Sunrise Hike (7:00 AM):</strong> One final push to the top. Catch the morning sun hitting the mountains and clear your head before heading back to civilization. <em>(Again, group organized. I’m still not getting up that early)</em></li>
+									<li id="sun-awards"><strong>Awards (9:00 AM):</strong> Time to hand out the hardware. We’ll crown the winners of the HackerCamp challenge, lock picking, and various shenanigans from the weekend.</li>
+									<li id="sun-cleanup"><strong>Cleanup - Leave No Trace (10:00 AM):</strong> The most critical hack of all: making it look like we were never here. Pack it in, pack it out. Pick up every micro-piece of trash so the forest rangers don't blacklist us.</li>
+									<li id="sun-checkout"><strong>Check Out (11:00 AM):</strong> Load up the vehicles, say your goodbyes, and head back to the land of Wi-Fi and hot showers. Go home and tell your coworkers you spent the weekend hacking the planet from a tent.</li>
+								</ul>
+
+							</div>
+						</section>
+					</article>
+
+				<footer id="footer" style="padding: 3em 0 1em 0">
+						<ul class="icons">
+							<li><a href="/discord" class="icon brands fa-discord"><span class="label">Discord</span></a></li>
+							<li><a href="https://twitter.com/_HackerCamp" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="mailto:contact@hackercamp.org" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+						<ul class="copyright">
+							<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</footer>
+
+			</div>
+
+		<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
